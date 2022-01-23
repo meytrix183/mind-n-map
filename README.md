@@ -1,5 +1,6 @@
 # mind(n)map
 
+
 ## What does this do?
 This script will parse a xml nmap output file and create a xmind file with IPs, ports and services.
 

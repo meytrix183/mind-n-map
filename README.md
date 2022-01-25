@@ -13,3 +13,4 @@ This script will parse a xml nmap output file and create a xmind file with IPs, 
 |:-------:|:-----:|:----:|
 | Add banners extracted dinamicly | 0 | 0 |
 | Add output of nmap scripts | 0 | 0 |
+| Change XML parsing to .nmap parsing (xml has not always the same format) | 0 | 0 |

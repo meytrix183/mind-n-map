@@ -16,7 +16,11 @@ def extract_from_json(o):
 	final_dict={}
 	services = []
 	hosts = o["nmaprun"]["host"]
-
+	try:
+		hosts['adress']
+		hosts=[hosts]
+	except:
+		pass
 	'''extract current host'''
 	for host in hosts:
 		if(type(host['address']) == list):

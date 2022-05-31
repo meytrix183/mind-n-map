@@ -15,7 +15,13 @@ def usage():
 def extract_from_json(o):
 	final_dict={}
 	services = []
+	
 	hosts = o["nmaprun"]["host"]
+	try:
+		hosts['address']
+		hosts = [hosts]
+	except:
+		pass
 	try:
 		hosts['adress']
 		hosts=[hosts]

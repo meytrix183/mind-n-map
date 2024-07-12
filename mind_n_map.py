@@ -114,4 +114,5 @@ for host in nmap:
 	print("\n")
 
 
-xmind.save(w,xmind_file) ## Save the file 
+xmind.save(w,xmind_file) ## Save the output
+
